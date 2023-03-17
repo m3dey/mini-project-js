@@ -1,0 +1,87 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(155,161,5);
+    background: linear-gradient(97deg, rgba(155,161,5,0.19371498599439774) 0%, rgba(143,255,227,0.3253676470588235) 56%, rgba(0,212,255,0.34217436974789917) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.information{
+    font-size: 22px;
+    min-width: 400px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 3px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.button_posts{
+    cursor: pointer;
+    width: 90%;
+    height: 80px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 3px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+.button_posts:hover{
+    border: rgba(0, 0, 0, 0.47) 5px solid;
+}
+
+.block_posts{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.little_along_post{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+    width: 300px;
+    height: 150px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 10px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.postLink_button{
+    font-size: 24px;
+    width: 200px;
+    height: 60px;
+    background-color: rgba(225, 224, 224, 0);
+    border-radius: 10px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.postLink_button:hover{
+    border: rgba(0, 0, 0, 0.47) 5px solid;
+}

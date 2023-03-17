@@ -1,0 +1,43 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background: rgb(155,161,5);
+    background: linear-gradient(97deg, rgba(155,161,5,0.19371498599439774) 0%, rgba(143,255,227,0.3253676470588235) 56%, rgba(0,212,255,0.34217436974789917) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 40px;
+}
+.information{
+    font-size: 24px;
+    min-width: 600px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 5px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.comments{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.avada{
+    font-size: 24px;
+    min-width: 600px;
+    background-color: rgba(245, 245, 245, 0);
+    padding: 5px;
+    border: rgba(0, 0, 0, 0.34) 5px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
